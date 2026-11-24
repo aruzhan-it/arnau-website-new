@@ -31,23 +31,23 @@ const translations = {
   kz: {
     navBtn: "Жобаны талқылау",
     heroBadge: "IT-КОМПАНИЯ · 5 ЖЫЛ ТӘЖІРИБЕ",
-    heroTitle1: "Сататын",
+    heroTitle1: "Бизнесіңізді өркендететін",
     heroTitle2: "сайттар",
-    heroSub: "Бизнес үшін цифрлық шешімдер жасаймыз. Жылдам, заманауи, кілт тапсыру.",
+    heroSub: "Бизнесіңіз үшін заманауи цифрлық шешімдер. Жылдам әрі сапалы, толық дайын күйінде.",
     servicesTitle: "Біз не істейміз",
     calcTitle: "Құнын есептеңіз",
     calcBadge: "🔥 Алғашқы 5 клиентке — арнайы баға!",
     calcType: "Сайт түрі",
-    calcExtra: "Қосымша",
+    calcExtra: "Қосымша қызметтер",
     calcBtn: "Нақты бағаны білу",
     calcTotal: "Шамамен құны:",
-    reviewsTitle: "Бізге сенім артады",
+    reviewsTitle: "Клиенттердің пікірлері",
     formTitle: "Бастауға дайынсыз ба?",
     formName: "Сіздің есіміңіз",
     formPhone: "WhatsApp / Телефон",
-    formMsg: "Тапсырма туралы қысқаша",
+    formMsg: "Жоба туралы қысқаша",
     formBtn: "Жіберу",
-    success: "Өтінім жіберілді! Біз сізбен хабарласамыз.",
+    success: "Сұранысыңыз қабылданды! Жақын арада хабарласамыз.",
   },
   en: {
     navBtn: "Discuss project",
@@ -170,7 +170,7 @@ function Landing() {
   const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState(false)
 
-  // НОВЫЕ СНИЖЕННЫЕ ЦЕНЫ (Стартовые)
+  // СНИЖЕННЫЕ ЦЕНЫ (Стартовые)
   const [calcType, setCalcType] = useState(35000) 
   const [calcSpeed, setCalcSpeed] = useState(0) 
 
